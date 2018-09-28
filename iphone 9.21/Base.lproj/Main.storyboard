@@ -23,12 +23,12 @@
                                 <state key="normal" title="Button"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHI-Hv-g8G">
-                                <rect key="frame" x="43" y="131" width="30" height="30"/>
+                                <rect key="frame" x="30" y="131" width="56" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSR-ls-ROK">
-                                <rect key="frame" x="132" y="131" width="30" height="38"/>
+                                <rect key="frame" x="132" y="127" width="30" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="2"/>
                             </button>
@@ -113,16 +113,28 @@
                                 <state key="normal" title="AC"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bDs-4m-Eg7">
-                                <rect key="frame" x="29" y="74" width="317" height="30"/>
+                                <rect key="frame" x="49" y="73" width="277" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.65718155645644005" green="0.66799789669999998" blue="0.64867616413214146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="number0" destination="iGi-lt-KPj" id="zuL-mg-DbW"/>
+                        <outlet property="number1" destination="RHI-Hv-g8G" id="cvf-08-EI0"/>
+                        <outlet property="number2" destination="MSR-ls-ROK" id="Bjv-x8-PgB"/>
+                        <outlet property="number3" destination="PsY-37-pag" id="cPU-iv-eJg"/>
+                        <outlet property="number4" destination="ocf-J4-seK" id="viP-7D-e51"/>
+                        <outlet property="number5" destination="hk6-ne-h49" id="pXd-hJ-NNr"/>
+                        <outlet property="number6" destination="yWM-x9-tcP" id="EXd-3p-W9j"/>
+                        <outlet property="number8" destination="roa-86-2Wq" id="ZJ6-ON-LKy"/>
+                        <outlet property="number9" destination="nzD-VX-iYF" id="rRf-x1-A5N"/>
+                        <outlet property="text" destination="bDs-4m-Eg7" id="jWC-ai-Thi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
