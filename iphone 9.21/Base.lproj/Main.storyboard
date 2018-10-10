@@ -96,6 +96,9 @@
                                 <rect key="frame" x="217" y="318" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="="/>
+                                <connections>
+                                    <action selector="operatorTapWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ppM-Hy-BrG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Zz-Mv-L7o">
                                 <rect key="frame" x="303" y="318" width="30" height="30"/>
